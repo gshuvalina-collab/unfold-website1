@@ -1,0 +1,53 @@
+// QUIZ PAGE LOGIC
+function submitMood(){
+  const m=document.querySelector('input[name="mood"]:checked');
+  const r=document.getElementById("quizResult");
+  if(!m){r.innerText="Please select a mood 😊";return;}
+  const answers={
+    happy:"You’re glowing today ✨",
+    sad:"It’s okay, you are supported 💙",
+    angry:"Breathe gently, you’re safe 🫶",
+    anxious:"You are not alone 🤍"
+  };
+  r.innerText=answers[m.value];
+}
+
+// VENT PAGE LOGIC
+function saveVent(){
+  const text=document.getElementById("ventText").value.trim();
+  if(!text){alert("Write something 💬");return;}
+  const list=document.getElementById("ventList");
+  const d=document.createElement("div");
+  d.className="box";
+  d.innerText=text;
+  list.prepend(d);
+  document.getElementById("ventText").value="";
+}
+
+// AI PAGE LOGIC
+function sendAI(){
+  const t=document.getElementById("aiInput").value.trim();
+  if(!t){return;}
+  const chat=document.getElementById("aiChat");
+  chat.innerHTML += `<div class="user-msg"><b>You:</b> ${t}</div>`;
+  let reply="I’m here with you 💙";
+  const msg=t.toLowerCase();
+  if(msg.includes("sad")) reply="I'm really sorry. You are important 🤍";
+  if(msg.includes("stress")) reply="Slow breath in... out... 🌿";
+  chat.innerHTML += `<div class="ai-msg"><b>UNfold AI:</b> ${reply}</div>`;
+  document.getElementById("aiInput").value="";
+}
+
+// BLOG PAGE LOGIC
+function addBlog(){
+  const t=document.getElementById("blogTitle").value.trim();
+  const c=document.getElementById("blogContent").value.trim();
+  if(!t||!c){alert("Write title and blog ✍️");return;}
+  const list=document.getElementById("blogList");
+  const d=document.createElement("div");
+  d.className="box";
+  d.innerHTML=`<h3>${t}</h3><p>${c}</p>`;
+  list.prepend(d);
+  document.getElementById("blogTitle").value="";
+  document.getElementById("blogContent").value="";
+}
