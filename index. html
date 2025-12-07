@@ -9,7 +9,8 @@
   <meta name="description" content="UNfold – A premium emotional wellness platform with AI support, private venting and mood improvement tools.">
   <meta name="keywords" content="mental health, AI therapy, emotional support, psychology, wellness app">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/assets/css/style.css"> 
+
 
   <!-- Google Translate (22 Languages) -->
   <script>
