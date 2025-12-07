@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UNfold – Share • Heal • Grow</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="UNfold – A premium emotional wellness platform with AI support, private venting and mood improvement tools.">
+  <meta name="keywords" content="mental health, AI therapy, emotional support, psychology, wellness app">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Translate (22 Languages) -->
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'hi,en,es,fr,de,ar,ru,zh-CN,ja,ko,it,ta,bn,ml,gu,ur,pa,vi,id,th,ms'
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<header class="hero">
+  <img src="https://i.ibb.co/2YvM9MF9/1765039912111.png" class="logo">
+  <h1 class="fade-in">UNfold</h1>
+  <p class="tagline fade-in">Share • Heal • Grow</p>
+</header>
+
+<div id="google_translate_element" style="margin:10px;"></div>
+
+<!-- FEATURE CARDS -->
+<section class="cards">
+
+  <a href="quiz.html" class="card glow">
+    🧠
+    <h3>Mood Intelligence Test</h3>
+    <p>Discover your emotional state</p>
+  </a>
+
+  <a href="vent.html" class="card glow">
+    💌
+    <h3>Private Vent Space</h3>
+    <p>Release thoughts safely</p>
+  </a>
+
+  <a href="ai.html" class="card glow">
+    🤖
+    <h3>AI Emotional Companion</h3>
+    <p>24/7 supportive guidance</p>
+  </a>
+
+  <a href="blog.html" class="card glow">
+    ✍️
+    <h3>Mind Growth Blogs</h3>
+    <p>Expert-written insights</p>
+  </a>
+
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2 class="fade-in">About UNfold</h2>
+  <p>
+    UNfold is a next-generation emotional wellness platform designed to help people
+    express, heal, and grow through intelligent tools and compassionate technology.
+    We combine psychology and AI to create a safe, beautiful space for mental well-being.
+  </p>
+</section>
+
+<!-- FOUNDERS -->
+<section class="founders">
+  <h2>Leadership</h2>
+
+  <div class="founder">
+    <img src="https://i.ibb.co/N22CYyzq/IMG-20251130-WA0056.jpg">
+    <h3>Aakash Sharma</h3>
+    <p>
+      Founder & Chief Technology Visionary<br>
+      MCA – GGSIPU, Delhi<br>
+      AI Systems Architect & Innovation Strategist
+    </p>
+  </div>
+
+  <div class="founder">
+    <img src="https://i.ibb.co/1GyxVz2g/1765040161201.jpg">
+    <h3>Shuvalina Ghosh</h3>
+    <p>
+      CEO & Co-Founder<br>
+      MSc in Physics<br>
+      Psychology & Emotional Wellness Specialist<br>
+      Mind Health Strategist
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 UNfold Global • Designed for Healing Minds</p>
+</footer>
+
+</body>
+</html>
