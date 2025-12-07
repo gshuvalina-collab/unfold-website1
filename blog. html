@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UNfold – Blogs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+  <h2>✍️ Mind Growth Blogs</h2>
+
+  <input id="blogTitle" placeholder="Blog Title">
+  <textarea id="blogContent" placeholder="Write your blog..."></textarea>
+  <button onclick="addBlog()">Publish</button>
+
+  <div id="blogList"></div>
+
+  <a href="index.html">← Back to Home</a>
+  <script src="script.js"></script>
+</body>
+</html>
