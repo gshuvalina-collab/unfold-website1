@@ -1,0 +1,37 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',Arial,sans-serif}
+body{background:#f2f8ff;color:#222;text-align:center}
+.hero{padding:60px 20px;background:linear-gradient(135deg,#007bff,#00c6ff);color:#fff}
+.logo{height:90px;border-radius:50%}
+.tagline{font-size:18px;opacity:.9}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:20px;
+  padding:40px 20px
+}
+.card{
+  background:#fff;padding:25px;border-radius:20px;text-decoration:none;
+  color:#222;font-weight:700;box-shadow:0 10px 25px rgba(0,0,0,.1);
+  transition:.35s ease
+}
+.card:hover{transform:translateY(-8px) scale(1.04);box-shadow:0 0 30px rgba(0,123,255,.35);background:#eaf4ff}
+
+.about,.founders{background:#fff;margin:20px;border-radius:20px;padding:30px}
+.founder{margin:18px 0}
+.founder img{width:130px;height:130px;border-radius:50%;object-fit:cover;box-shadow:0 10px 20px rgba(0,0,0,.15)}
+
+.container{max-width:900px;margin:auto;padding:20px}
+.box{background:#fff;padding:18px;border-radius:16px;margin:12px 0;box-shadow:0 8px 18px rgba(0,0,0,.08)}
+input,textarea{width:100%;padding:12px;border:1px solid #ddd;border-radius:10px;margin:10px 0}
+button{background:#007bff;color:#fff;border:none;padding:12px 22px;border-radius:10px;font-weight:700;cursor:pointer}
+button:hover{opacity:.9}
+
+.chat-box{min-height:220px;background:#f5faff;border-radius:16px;padding:12px;overflow:auto}
+.user-msg{background:#e1f0ff;margin:6px 0;padding:10px;border-radius:10px;text-align:left}
+.ai-msg{background:#fff;margin:6px 0;padding:10px;border-radius:10px;text-align:left}
+
+footer{margin-top:30px;padding:18px;background:#007bff;color:#fff}
+
+.fade-in{animation:fade 1.2s ease-in-out}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1}}
