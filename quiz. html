@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UNfold – Mood Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+  <h2>🧠 Mood Intelligence Test</h2>
+
+  <div class="box">
+    <label><input type="radio" name="mood" value="happy"> Happy 😊</label><br>
+    <label><input type="radio" name="mood" value="sad"> Sad 😞</label><br>
+    <label><input type="radio" name="mood" value="angry"> Angry 😠</label><br>
+    <label><input type="radio" name="mood" value="anxious"> Anxious 😰</label><br><br>
+    <button onclick="submitMood()">Check Mood</button>
+    <p id="quizResult"></p>
+  </div>
+
+  <a href="index.html">← Back to Home</a>
+  <script src="script.js"></script>
+</body>
+</html>
