@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UNfold – Vent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+  <h2>💌 Private Vent Space</h2>
+
+  <textarea id="ventText" placeholder="Write your heart out..."></textarea>
+  <button onclick="saveVent()">Save</button>
+
+  <div id="ventList"></div>
+
+  <a href="index.html">← Back to Home</a>
+  <script src="script.js"></script>
+</body>
+</html>
